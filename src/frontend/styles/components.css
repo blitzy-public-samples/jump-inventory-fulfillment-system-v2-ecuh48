@@ -1,0 +1,123 @@
+/* Component-specific CSS styles for the Inventory Management and Fulfillment Application */
+
+/* Styles for the header component */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Styles for the header navigation */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for header navigation links */
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+/* Styles for the sidebar component */
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+/* Styles for the sidebar navigation */
+.sidebar-nav {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Styles for sidebar navigation items */
+.sidebar-nav li {
+    margin-bottom: 10px;
+}
+
+/* Styles for sidebar navigation links */
+.sidebar-nav a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+/* Hover styles for sidebar navigation links */
+.sidebar-nav a:hover {
+    background-color: #e9ecef;
+}
+
+/* Styles for the main content area */
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+/* Styles for dashboard cards */
+.dashboard-card {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styles for dashboard card titles */
+.dashboard-card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styles for the order list component */
+.order-list {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Styles for order list items */
+.order-list-item {
+    border-bottom: 1px solid #e9ecef;
+    padding: 15px;
+}
+
+/* Styles for the last order list item */
+.order-list-item:last-child {
+    border-bottom: none;
+}
+
+/* Styles for the inventory grid component */
+.inventory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Styles for inventory items */
+.inventory-item {
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+
+/* Styles for the footer component */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto;
+}
